@@ -5,24 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
+    <style>
+        .mobile-navbar {
+            display: none;
+        }
+    </style>
 </head>
 <body>
     <div class="semantic-grid-container">
         <header>
             <a href="#" class="logo"> Logo </a>
 
+            <div class="navbar-container">
+                <nav class="navbar">
+                    <a href="#"> Home </a>
+                    <a href="#"> About </a>
+                    <a href="#"> Gallery </a>
+                </nav>
 
-            <nav class="navbar">
-                <a href="#"> Home </a>
-                <a href="#"> About </a>
-                <a href="#"> Gallery </a>
-                <a href="#"> Serving </a>
-                <a href="#"> Commands </a>
+                <nav class="mobile-navbar">
+                    <a href="#"> Home </a>
+                    <a href="#"> About </a>
+                    <a href="#"> Gallery </a>
+                </nav>
+            </div>
 
+            <div class="navbar-end-section">
+                <button type="button" class="join-btn">Join</button>
 
-            
-            </nav>
+                <label for="" class="icons">
+                    <i class="bx bx-menu" id="menu-icon"></i>
+                </label>
+            </div>
         </header>
         <main>
             main
@@ -31,5 +47,16 @@
             footer
         </footer>
     </div>
+
+    <script>
+        document.getElementById('menu-icon').addEventListener('click', function() {
+            var mobileNavbar = document.querySelector('.mobile-navbar');
+            if (mobileNavbar.style.display === 'block') {
+                mobileNavbar.style.display = 'none';
+            } else {
+                mobileNavbar.style.display = 'block';
+            }
+        });
+    </script>
 </body>
 </html>
