@@ -1,6 +1,5 @@
 
 * {
-    background-color: black;
     color: #faebd7;
     box-sizing: border-box;
     margin: 0;
@@ -49,7 +48,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
-    background-color: rgb(38, 38, 38);
+    background-color: rgb(0, 0, 0);
     padding-top: 5%;
 }
 
@@ -177,4 +176,72 @@ footer {
     .cta-join-btn {
         margin-bottom: 2%;
     }
+}
+
+/* ================================================================= */
+
+/* ===============================Features=========================== */
+
+.features1 {
+    background-image: url(/images/feature-bg-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.features2 {
+    background-image: url(/images/feature-bg-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.features3 {
+    background-image: url(/images/feature-bg-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.features {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding-top: 3%;
+}
+
+.f-img1 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    justify-self: center;
+    width: 300px;
+}
+
+.f-img2 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    justify-self: center;
+    width: 300px;
+}
+
+.f-img3 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    justify-self: center;
+    width: 300px;
+}
+
+.f-bold-text {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-self: center;
+    font-size: 2.7rem;
+}
+
+.f-deff-text {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-self: center;
+    font-size: 2.0rem;
 }
