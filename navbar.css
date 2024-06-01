@@ -12,14 +12,11 @@
 }
 
 
+
+
 .logo {
-    font-size: 2rem;
-    color: #000000;
-    text-decoration: none;
-    font-weight: 700;
-    background-color: antiquewhite;
-    justify-self: flex-start;
     cursor: pointer;
+    width: 100px;
 
 }
 
@@ -38,8 +35,7 @@
 }
 
 .icons {
-    background-color: antiquewhite;
-    padding-left: 10%;
+    background-color: black;
     font-size: 200%;
     cursor: pointer;
     display: none;
